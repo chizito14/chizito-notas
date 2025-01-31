@@ -1,0 +1,19 @@
+<form action="POST" class="advanced__form form-advanced">
+    <input class="input__input"
+        type="email"
+        placeholder="email@example.com"
+        minlength="5"
+        axlength="40"
+        [(ngModel)]="nombre" name="nombre"
+        required>
+        
+    <input class="input__input iinput__input--password"
+       type="password"
+       placeholder="minimum 8 characters"
+       minlength="6"
+       maxlength="20"
+       [(ngModel)]="contra" name="contra" 
+       required >
+    
+    <button (click)="postData()" type="submit" class="buttonform">Log In</button>
+</form>
