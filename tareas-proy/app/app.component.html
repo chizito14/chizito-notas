@@ -1,0 +1,11 @@
+<div>
+  <button (click)="anadir()">anadir</button>
+
+  @for (item of lista; track lista) {
+    <p >{{item.id}} </p>
+    <button (click)="eliminar(item.id)"> x </button>
+  }
+
+
+
+</div>
