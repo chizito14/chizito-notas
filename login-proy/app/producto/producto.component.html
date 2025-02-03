@@ -1,0 +1,15 @@
+
+<div style="display: grid;grid-template-columns: 1fr 1fr 1fr">
+@for (item of lista; track $index) {
+    <div style=" border: 1px solid violet;"><img style="height: 100px;width: 85px;" src="{{item.image}}">
+    {{item.name}}
+    {{item.price}}
+    </div>
+}
+</div>
+
+<hr>
+
+<div class="sidebar" >
+    <button (click)="regresar()"> regresar </button>
+</div>

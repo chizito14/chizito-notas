@@ -1,0 +1,23 @@
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 149, 210);
+}
+.contenido{
+    display: grid;
+    padding: 30px 12px 30px 12px;
+
+}
+.contenido1{
+    padding: 150px;
+    display: grid;
+    border:2px solid honeydew;
+    
+}
+.sl-cont-input{
+    display: grid;
+    justify-content: center; 
+    margin: 0px;   
+
+}
