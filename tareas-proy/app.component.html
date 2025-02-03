@@ -1,0 +1,48 @@
+<div> 
+
+  <form class="anadir">
+      <p> anadir </p>
+    <input class=""
+        type="text"
+        [(ngModel)]="titulo" name="titulo"
+        required>
+        
+    <input class=""
+       type="text"
+       [(ngModel)]="descripcion" name="descripcion" 
+       required >
+    <button (click)="anadir()"> anadir </button>
+    </form>
+</div>
+<div> 
+  <form class="modificar">
+    <p> modificar</p>
+    <input class=""
+        type="text"
+        [(ngModel)]="titulomodificar" name="modificar"
+        required>
+        
+    <input class=""
+       type="text"
+       [(ngModel)]="descripcionmoficiar" name="modificar" 
+       required >
+    
+    </form>
+</div>
+
+@if(errorboleano == true) {
+  <p>HAY ERROR</p>
+  {{this.errortext}}
+}
+
+<div style="display: grid;">
+  @for (item of lista; track $index) {
+    {{item.titulo}}
+    {{item.descripcion}}
+    {{item.fecha}}
+    <button (click)="eliminar(item.id)"> eliminar nota </button>
+    <button (click)="modificar(item.id)"> modificar la nota </button>
+  } 
+
+</div>
+ 

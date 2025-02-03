@@ -1,0 +1,74 @@
+
+h2{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 8px;
+
+}
+.lista{
+
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    padding: 40px;
+    margin-top: 20px;
+    display: grid;
+    border-radius: 6px;
+    
+    
+}
+.formulario{
+    display: grid;
+    padding: 3px;
+}
+.descripcion{
+    height: 250px;
+    margin-bottom: 5px;
+
+}
+.titulo1{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.buttonagregar{
+    background-color: #3b3e56; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.5; /* Opacidad del botón */
+}
+
+
+.buttonagregar:hover{
+    opacity: 1
+}
+
+.eliminar{
+    background-color: #2f47ff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    opacity: 0.5;
+
+
+}
+.eliminar:hover{
+    opacity: 1
+}
+
+
+.for{
+   padding: 40px 80px;
+   margin: 10px; 
+}
